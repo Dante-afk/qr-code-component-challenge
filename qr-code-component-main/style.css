@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+
+
+body {
+    margin: 0;
+    background: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+main {
+    max-width: 17rem;
+    margin: 1rem auto;
+    background: hsl(0, 0%, 100%);
+    border-radius: 17px;
+    padding: 0.8rem;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.9rem;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color:  hsl(220, 15%, 55%);
+    
+
+}
+.qrcode {
+    max-width: 100%;
+    border-radius: 4%; 
+    margin-bottom: -0.5rem;
+}
+
+.QR {
+    text-align: center;
+
+}
